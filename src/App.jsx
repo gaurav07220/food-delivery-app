@@ -13,7 +13,7 @@ export default function App() {
     <Router>
       <Navbar />
 
-      <Routes>
+      <Routes basename="/food-delivery-app/">
         <Route path="/" element={<Home />} />
         <Route path='foods' element={<Shop />} />
         <Route path="about" element={<About />} />
