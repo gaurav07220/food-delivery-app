@@ -110,11 +110,11 @@
 
 @media(max-width:600px) {
     .hero-title h1 {
-        font-size: 38px;
+        font-size: 40px;
 
     }
 
     .hero-section {
-        margin-top: 5px;
+        margin-top: -40px;
     }
 }
