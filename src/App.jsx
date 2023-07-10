@@ -10,7 +10,7 @@ import Shop from './pages/shop/Shop';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename='/food-delivery-app/'>
       <Navbar />
 
       <Routes basename="/food-delivery-app/">
